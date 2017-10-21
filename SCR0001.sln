@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCR0001", "SCR0001\SCR0001.vbproj", "{5E57F7DA-B00C-438A-91D8-3C571DB44820}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B9C7189-4DDB-417E-9580-0B4B48548811}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\WindowsApplication2\WindowsApplication2\Settings.vb = ..\..\WindowsApplication2\WindowsApplication2\Settings.vb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E57F7DA-B00C-438A-91D8-3C571DB44820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E57F7DA-B00C-438A-91D8-3C571DB44820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E57F7DA-B00C-438A-91D8-3C571DB44820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E57F7DA-B00C-438A-91D8-3C571DB44820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D203448-26ED-478C-B688-1970AD00A78E}
+	EndGlobalSection
+EndGlobal
