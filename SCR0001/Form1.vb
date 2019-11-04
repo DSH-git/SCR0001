@@ -71,7 +71,7 @@ Public Class Form1
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button_Anzahl.Click
         ' Exeldatei mit den Metadaten je Akte öffenen und einlesen
-        Dim connectionString = String.Format("Provider=Microsoft.ACE.OLEDB.12.0; data source={0}; Extended Properties=Excel 8.0;", TextBox_Excel_Akte.Text) 'Datenbankverbindung angeben'
+        Dim connectionString = String.Format("Provider=Microsoft.Jet.OLEDB.4.0; data source={0}; Extended Properties=Excel 8.0;", TextBox_Excel_Akte.Text) 'Datenbankverbindung angeben'
         Dim adapter = New OleDbDataAdapter("SELECT * FROM [Tabelle1$]", connectionString) 'Verbindung zur Tabelle aufbauen'
         Dim ds = New DataSet()
         adapter.Fill(ds, "Tabelle1") 'DataSet auslesen'
